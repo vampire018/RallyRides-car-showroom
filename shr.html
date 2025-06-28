@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Clients</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    .happy-clients {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 0 1rem;
+    }
+    .happy-clients h2 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .happy-clients a {
+      color: #e41c25;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin-bottom: 2rem;
+    }
+    .client-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .client-card {
+      background: #f5f5f5;
+      padding: 3.5rem 1.5rem 2.5rem;
+      text-align: center;
+      border-radius: 4px;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    }
+    .img-wrapper {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 1.8rem;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 6px solid #fff;
+      outline: 6px solid #e41c25;
+    }
+    .img-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .client-name {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #005e7a;
+      margin-bottom: 0.8rem;
+    }
+    .client-quote {
+      font-style: italic;
+      font-size: 0.95rem;
+      max-width: 260px;
+      margin: 0 auto;
+    }
+    @media (max-width: 600px) {
+      .happy-clients h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="happy-clients">
+    <h2>Happy Clients</h2>
+    <a href="#">READ MORE &gt;</a>
+
+    <div class="client-grid">
+      <div class="client-card">
+        <div class="img-wrapper">
+          <img src="C:\Users\Shrvan\OneDrive\Pictures\Saved Pictures\20250116_120142.jpg" alt="SIDDHESHWAR KHANDARE" />
+        </div>
+        <h3 class="client-name">SIDDHESHWAR KHANDARE</h3>
+        <p class="client-quote">
+          "Drove away in a stunning a Mushtang gt; praised our fast paperwork and friendly staff."
+        </p>
+      </div>
+
+      <div class="client-card">
+        <div class="img-wrapper">
+          <img src="C:\Users\Shrvan\OneDrive\Pictures\Saved Pictures\20250116_122851.jpg" alt="NILESH JAGADE" />
+        </div>
+        <h3 class="client-name">NILESH JAGADE</h3>
+        <p class="client-quote">
+          "Purchased a new BUGGATI CHIRON and loved the smooth delivery experience."
+        </p>
+      </div>
+
+      <div class="client-card">
+        <div class="img-wrapper">
+          <img src="C:\Users\Shrvan\OneDrive\Pictures\Saved Pictures\20250116_122643.jpg" alt="VITTHAL KOLEKAR" />
+        </div>
+        <h3 class="client-name">VITTHAL KOLEKAR</h3>
+        <p class="client-quote">
+          "Chose the LAMBORGHINI URUS for his family; appreciated our test drive support and financing guidance."
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
